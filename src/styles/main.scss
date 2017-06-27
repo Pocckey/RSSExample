@@ -1,0 +1,51 @@
+@import '../components/AboutPage/about-page.scss';
+@import '../components/NotFoundPage/not-found-page.scss';
+@import '../components/FeedPage/feed-page.scss';
+@import '../containers/ManageFeedContainer/manage-feed-container.scss';
+
+html, body{
+  height:100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#app{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.routes{
+  height: inherit;
+  width: inherit;
+}
+
+.AppContainer{
+  height: inherit;
+  width: inherit;
+}
+
+.contentContainer{
+  height: 100%;
+  float: left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.dropdownContainer{
+  top: 0;
+  height: 100%;
+  float: left;
+}
+
+.alt-header{
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-menu{
+  display: block;
+  position: initial;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
